@@ -21,6 +21,18 @@ figcaption {
 .headshot {
     float: left;
 }
+@media (max-width: 600px) {
+    .headshot {
+        float: none;
+    }
+    .headshot img {
+        display: block;
+        margin: auto;
+    }
+}
+.headshot figcaption {
+    text-align: center;
+}
 .rounded {
     border-radius: 0.25rem !important;
 }
