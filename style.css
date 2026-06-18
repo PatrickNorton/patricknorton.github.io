@@ -16,10 +16,8 @@
         arial,
         sans-serif;
 }
-html {
-    background: #181a1b;
-}
 body {
+    background: #181a1b;
     margin: 40px auto;
     max-width: 1000px;
     line-height: 1.6;
@@ -66,7 +64,6 @@ ul {
 .btn {
     color: #eee;
     background-color: #a70e16;
-    border-color: #a70e16;
     display: inline-block;
     font-weight: 400;
     text-align: center;
@@ -77,10 +74,6 @@ ul {
     -ms-user-select: none;
     user-select: none;
     border: 1px solid transparent;
-    border-top-color: transparent;
-    border-right-color: transparent;
-    border-bottom-color: transparent;
-    border-left-color: transparent;
     padding: 0.375rem 0.75rem;
     font-size: 1rem;
     line-height: 1.5;
